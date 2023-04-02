@@ -6,7 +6,7 @@ const IS_DEV = process.env.NODE_ENV === 'development'
 const getBookMarkdown = async (bookPath: any) => {
   const path = encodeURI(bookPath)
 
-  const baseUrl = IS_DEV ? 'http://localhost:3000': 'books-summary.vercel.app'
+  const baseUrl = IS_DEV ? 'http://localhost:3000': 'https://books-summary.vercel.app'
   const staticData = await fetch(`${baseUrl}/${path}`, {cache: 'reload'});
 
   return staticData.text()

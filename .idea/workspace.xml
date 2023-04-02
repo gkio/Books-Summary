@@ -5,22 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa8b9f9c-d947-4276-8f75-47c0eeaa88cd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/copy-folders-content.js" beforeDir="false" afterPath="$PROJECT_DIR$/copy-folders-content.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/create-books-export.js" beforeDir="false" afterPath="$PROJECT_DIR$/create-books-export.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/utils/get-books.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/utils/get-books.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/books/13 Things Mentally Strong People Don't Do/Summary.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/books/Good to great/Summary.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/books/How to Win Friends and Influence People in the Digital Age/Summary.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/books/Limitless/Summary.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/books/Stop Overthinking/Summary.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/books/The 7 habits of Highly Effective People/Summary.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/books/The 7 habits of Highly Effective People/time management.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/books/The Innovator's Dilemma/Summary.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/books/The Lean Startup/Summary.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/books/The Subtle Art of Not Giving a Fuck/Summary.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/books/books.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/books/books.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680429262457</updated>
-      <workItem from="1680429264190" duration="8484000" />
+      <workItem from="1680429264190" duration="8595000" />
     </task>
     <servers />
   </component>
