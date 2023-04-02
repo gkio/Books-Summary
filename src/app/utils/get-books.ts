@@ -7,7 +7,7 @@ const getBookMarkdown = async (bookPath: any) => {
   const path = encodeURI(bookPath)
 
   const baseUrl = IS_DEV ? 'http://localhost:3000': 'https://books-summary.vercel.app'
-  const staticData = await fetch(`${baseUrl}/${path}`, {cache: 'reload'});
+  const staticData = await fetch(`${baseUrl}/${path}`, {cache: 'no-cache'});
 
   return staticData.text()
 }
