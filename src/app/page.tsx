@@ -1,5 +1,4 @@
 import {books} from '../books/books'
-import Image from 'next/image';
 
 
 const getGoogleApiBook = async (book: any) => {
@@ -52,7 +51,7 @@ export default async function Home() {
               <h1 className="text-3xl my-5">
                 <a className="block" href={`/book/${book.id}`}>{book.name}</a>
               </h1>
-              <Image src={book.imageLinks.thumbnail} alt={book.name} />
+              <img src={book.imageLinks.thumbnail} alt={book.name} />
               <p className="excerpt">
                 {book.description && cutTextAndAddDots(book.description, 50)}
               </p>
