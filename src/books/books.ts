@@ -55,6 +55,10 @@ export const books = {
     "name": "the-lean-startup",
     "path": "books/the-lean-startup/Summary.md"
   },
+  "the-mountain-is-you": {
+    "name": "the-mountain-is-you",
+    "path": "books/the-mountain-is-you/Summary.md"
+  },
   "the-subtle-art-of-not-giving-a-fuck": {
     "name": "the-subtle-art-of-not-giving-a-fuck",
     "path": "books/the-subtle-art-of-not-giving-a-fuck/Summary.md"
