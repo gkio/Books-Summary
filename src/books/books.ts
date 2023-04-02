@@ -7,6 +7,10 @@ export const books = {
     "name": "good-to-great",
     "path": "books/good-to-great/Summary.md"
   },
+  "how-to-talk-to-anyone": {
+    "name": "how-to-talk-to-anyone",
+    "path": "books/how-to-talk-to-anyone/Summary.md"
+  },
   "how-to-win-friends-and-influence-people-in-the-digital-age": {
     "name": "how-to-win-friends-and-influence-people-in-the-digital-age",
     "path": "books/how-to-win-friends-and-influence-people-in-the-digital-age/Summary.md"
