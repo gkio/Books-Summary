@@ -50,7 +50,9 @@ export default async function Home() {
               <h1 className="text-3xl my-5">
                 <span className="block">{book.name}</span>
               </h1>
-              <img src={book.imageLinks.thumbnail} alt={book.name}/>
+              { book.imageLinks?.thumbnail && (
+                <img src={book.imageLinks?.thumbnail} alt={book.name}/>
+              )}
               <p className="excerpt">
                 {book.description && cutTextAndAddDots(book.description, 50)}
               </p>
