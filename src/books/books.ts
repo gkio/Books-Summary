@@ -59,6 +59,10 @@ export const books = {
     "name": "the-mountain-is-you",
     "path": "books/the-mountain-is-you/Summary.md"
   },
+  "the-power-of-discipline": {
+    "name": "the-power-of-discipline",
+    "path": "books/the-power-of-discipline/Summary.md"
+  },
   "the-subtle-art-of-not-giving-a-fuck": {
     "name": "the-subtle-art-of-not-giving-a-fuck",
     "path": "books/the-subtle-art-of-not-giving-a-fuck/Summary.md"
