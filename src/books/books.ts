@@ -7,6 +7,10 @@ export const books = {
     "name": "becoming-the-boss",
     "path": "books/becoming-the-boss/Summary.md"
   },
+  "buddhism-plain-and-simple": {
+    "name": "buddhism-plain-and-simple",
+    "path": "books/buddhism-plain-and-simple/Summary.md"
+  },
   "good-to-great": {
     "name": "good-to-great",
     "path": "books/good-to-great/Summary.md"
