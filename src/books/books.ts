@@ -39,6 +39,10 @@ export const books = {
     "name": "the-7-habits-of-highly-effective-people",
     "path": "books/the-7-habits-of-highly-effective-people/Summary.md"
   },
+  "the-first-90-days": {
+    "name": "the-first-90-days",
+    "path": "books/the-first-90-days/Summary.md"
+  },
   "the-innovators-dilemma": {
     "name": "the-innovators-dilemma",
     "path": "books/the-innovators-dilemma/Summary.md"
