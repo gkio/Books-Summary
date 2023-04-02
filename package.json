@@ -9,8 +9,10 @@
     "lint": "next lint",
     "generate:folders": "node copy-folders-content.js",
     "generate:books": "node create-books-export.js",
-    "get:books": "yarn generate:folders && yarn generate:books"
+    "get:books": "yarn generate:folders && yarn generate:books",
+    "precommit-msg": "echo 'Pre-commit updates...' && exit 0"
   },
+  "pre-commit": [ "get:books" ],
   "dependencies": {
     "@types/node": "18.15.11",
     "@types/react": "18.0.32",
@@ -28,6 +30,7 @@
     "@tailwindcss/typography": "^0.5.9",
     "autoprefixer": "^10.4.14",
     "postcss": "^8.4.21",
+    "pre-commit": "^1.2.2",
     "tailwindcss": "^3.3.1"
   }
 }
