@@ -5,6 +5,7 @@ import Markdown from 'markdown-to-jsx';
 // @ts-ignore
 export default async function Page({ params: { book } }) {
   const {name, markdown} = await getBook(book)
+
   if(!name || !markdown) {
     return null;
   }

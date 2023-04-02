@@ -4,10 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "yarn get:books && next dev",
-    "build": "next build",
+    "build": "yarn generate:books && next build",
     "start": "next start",
     "lint": "next lint",
-    "get:books": "node ./get-books.js"
+    "generate:folders": "node copy-folders-content.js",
+    "generate:books": "node create-books-export.js",
+    "get:books": "yarn generate:folders && yarn generate:books"
   },
   "dependencies": {
     "@types/node": "18.15.11",
