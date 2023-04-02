@@ -17,8 +17,8 @@ export default function RootLayout({
   return (
     <html lang="en">
     <body>
-      <div className="pt-8 pb-16 lg:pt-className:pb-24 bg-white dark:bg-gray-900 min-h-screen">
-        <div className="fcontainer mx-auto max-w-5xl px-8 pt-2 flex flex-wrap justify-between">
+      <div className="pt-8 pb-16 lg:pt-className:pb-24 dark:bg-gray-900 min-h-screen">
+        <div className="fcontainer mx-auto max-w-5xl px-8 pt-2 flex flex-wrap justify-between text-white">
           <main className={inter.className}>{children}</main>
         </div>
       </div>
