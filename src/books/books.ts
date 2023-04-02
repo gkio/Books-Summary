@@ -15,6 +15,10 @@ export const books = {
     "name": "limitless",
     "path": "books/limitless/Summary.md"
   },
+  "living-in-flow": {
+    "name": "living-in-flow",
+    "path": "books/living-in-flow/Summary.md"
+  },
   "stop-overthinking": {
     "name": "stop-overthinking",
     "path": "books/stop-overthinking/Summary.md"
