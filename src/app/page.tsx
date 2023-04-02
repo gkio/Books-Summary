@@ -40,8 +40,6 @@ const cutTextAndAddDots = (text: string, length: number) => {
 
 export default async function Home() {
   const booksList = await getBooks()
-
-  console.log(booksList)
   return (
     <div
       className="">

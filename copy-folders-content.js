@@ -3,7 +3,7 @@ const {rimraf} = require('rimraf')
 const {resolve} = require('path')
 
 const booksPath = resolve(__dirname, '../../books-notes/Books')
-const destinationPath = resolve(__dirname, 'src/books')
+const destinationPath = resolve(__dirname, 'public/books')
 
 const copyFolder = async (source, destination) => {
   const folderStats = await stat(source)

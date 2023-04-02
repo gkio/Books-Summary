@@ -1,6 +1,8 @@
 const {readdir, writeFile} = require('fs/promises')
 const {resolve} = require('path')
 const destinationPath = resolve(__dirname, 'src/books')
+const publicBooksPath = resolve(__dirname, 'public/books')
+const publicPath = "books"
 
 const getBooksNames = async (source) => {
   const allDirectories = await readdir(source)
@@ -21,7 +23,7 @@ const stringToKebabCase = (string) => {
 }
 
 const createBooksExport = async () => {
-  const books = await getBooksNames(destinationPath)
+  const books = await getBooksNames(publicBooksPath)
 
   const bookNames = books.map(book => getBookName(book))
 
@@ -30,7 +32,7 @@ const createBooksExport = async () => {
   bookNames.forEach(book => {
     booksDB[stringToKebabCase(removeSpecialCharacters(book))] = {
       name: book,
-      path: resolve(destinationPath, book, 'Summary.md'),
+      path: [publicPath, book, 'Summary.md'].join('/'),
     }
   })
 
