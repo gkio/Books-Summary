@@ -27,6 +27,10 @@ export const books = {
     "name": "stop-overthinking",
     "path": "books/stop-overthinking/Summary.md"
   },
+  "the-4hour-workweek": {
+    "name": "the-4hour-workweek",
+    "path": "books/the-4hour-workweek/Summary.md"
+  },
   "the-7-habits-of-highly-effective-people": {
     "name": "the-7-habits-of-highly-effective-people",
     "path": "books/the-7-habits-of-highly-effective-people/Summary.md"
