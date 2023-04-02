@@ -15,9 +15,9 @@ export const books = {
     "name": "how-to-win-friends-and-influence-people-in-the-digital-age",
     "path": "books/how-to-win-friends-and-influence-people-in-the-digital-age/Summary.md"
   },
-  "limitless": {
-    "name": "limitless",
-    "path": "books/limitless/Summary.md"
+  "limitless-jim-kwik": {
+    "name": "limitless-jim-kwik",
+    "path": "books/limitless-jim-kwik/Summary.md"
   },
   "living-in-flow": {
     "name": "living-in-flow",
