@@ -7,7 +7,6 @@ export default async function Page({params: {book}}) {
   const {name, markdown} = await getBook(book)
 
   const hasContent = name && markdown
-
   return (
     <div
       className="mx-auto w-full maclassNamexl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
