@@ -1,38 +1,38 @@
 export const books = {
   "13-things-mentally-strong-people-dont-do": {
-    "name": "13 Things Mentally Strong People Don't Do",
-    "path": "books/13 Things Mentally Strong People Don't Do/Summary.md"
+    "name": "13-things-mentally-strong-people-dont-do",
+    "path": "books/13-things-mentally-strong-people-dont-do/Summary.md"
   },
   "good-to-great": {
-    "name": "Good to great",
-    "path": "books/Good to great/Summary.md"
+    "name": "good-to-great",
+    "path": "books/good-to-great/Summary.md"
   },
   "how-to-win-friends-and-influence-people-in-the-digital-age": {
-    "name": "How to Win Friends and Influence People in the Digital Age",
-    "path": "books/How to Win Friends and Influence People in the Digital Age/Summary.md"
+    "name": "how-to-win-friends-and-influence-people-in-the-digital-age",
+    "path": "books/how-to-win-friends-and-influence-people-in-the-digital-age/Summary.md"
   },
   "limitless": {
-    "name": "Limitless",
-    "path": "books/Limitless/Summary.md"
+    "name": "limitless",
+    "path": "books/limitless/Summary.md"
   },
   "stop-overthinking": {
-    "name": "Stop Overthinking",
-    "path": "books/Stop Overthinking/Summary.md"
+    "name": "stop-overthinking",
+    "path": "books/stop-overthinking/Summary.md"
   },
   "the-7-habits-of-highly-effective-people": {
-    "name": "The 7 habits of Highly Effective People",
-    "path": "books/The 7 habits of Highly Effective People/Summary.md"
+    "name": "the-7-habits-of-highly-effective-people",
+    "path": "books/the-7-habits-of-highly-effective-people/Summary.md"
   },
   "the-innovators-dilemma": {
-    "name": "The Innovator's Dilemma",
-    "path": "books/The Innovator's Dilemma/Summary.md"
+    "name": "the-innovators-dilemma",
+    "path": "books/the-innovators-dilemma/Summary.md"
   },
   "the-lean-startup": {
-    "name": "The Lean Startup",
-    "path": "books/The Lean Startup/Summary.md"
+    "name": "the-lean-startup",
+    "path": "books/the-lean-startup/Summary.md"
   },
   "the-subtle-art-of-not-giving-a-fuck": {
-    "name": "The Subtle Art of Not Giving a Fuck",
-    "path": "books/The Subtle Art of Not Giving a Fuck/Summary.md"
+    "name": "the-subtle-art-of-not-giving-a-fuck",
+    "path": "books/the-subtle-art-of-not-giving-a-fuck/Summary.md"
   }
 }

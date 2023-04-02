@@ -44,24 +44,26 @@ export default async function Home() {
     <div
       className="">
       {booksList.map((book) => {
-          return (
-            <div className="mb-8 border-dotted border-b pb-8 border-gray-300" key={book.id}>
+        return (
+          <div className="mb-8 border-dotted border-b pb-8 border-gray-300" key={book.id}>
+            <a href={`/book/${book.id}?bookName=${book.name}`}>
               <h1 className="text-3xl my-5">
-                <a className="block" href={`/book/${book.id}`}>{book.name}</a>
+                <span className="block">{book.name}</span>
               </h1>
-              <img src={book.imageLinks.thumbnail} alt={book.name} />
+              <img src={book.imageLinks.thumbnail} alt={book.name}/>
               <p className="excerpt">
                 {book.description && cutTextAndAddDots(book.description, 50)}
               </p>
-              {book.authors.map((author: string) => {
-                return (<a className="tag spirituality" key={author} href="#">{author}</a>)
-              })}
-              <span className="block md:inline md:float-right md:pt-4 pt-2 created-date">
+            </a>
+            {book.authors.map((author: string) => {
+              return (<a className="tag spirituality" key={author} href="#">{author}</a>)
+            })}
+            <span className="block md:inline md:float-right md:pt-4 pt-2 created-date">
                 {book.publishedDate}
               </span>
-            </div>
-          )
-        }
+          </div>
+        )
+      }
       )}
     </div>
   )

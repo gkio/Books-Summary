@@ -3,7 +3,8 @@ import {getBook} from "~/app/utils/get-books";
 import Markdown from 'markdown-to-jsx';
 
 // @ts-ignore
-export default async function Page({params: {book}}) {
+export default async function Page(props) {
+  const {params: {book}, searchParams: {bookName}} = props
   const {name, markdown} = await getBook(book)
 
   const hasContent = name && markdown
@@ -12,7 +13,7 @@ export default async function Page({params: {book}}) {
       className="mx-auto w-full maclassNamexl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
       {hasContent && (
         <article className="prose lg:prose-xl dark:prose-invert">
-          <h1>{name}</h1>
+          <h1 className="block">{bookName}</h1>
           <Markdown options={{forceWrapper: true, forceBlock: true}}>{markdown}</Markdown>
         </article>
       )}

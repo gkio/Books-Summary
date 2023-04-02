@@ -30,18 +30,27 @@ const getBookName = (book) => {
   return book.replace('📚', '').replace('👀', ' ').trim()
 }
 
+const removeSpecialCharacters = (string) => {
+  return string.replace(/[^\w\s]/gi, '')
+}
+
+const stringToKebabCase = (string) => {
+  return string.replace(/([a-z])([A-Z])/g, '$1-$2').replace(/\s+/g, '-').toLowerCase()
+}
+
 const copyFoldersContent = async (source, destination) => {
   await deleteAllContentFromDirectory(destination)
   const files = await getBooksNames(source)
   for (const file of files) {
     const book = getBookName(file)
     const sourcePath = resolve(source, file)
-    const destinationPath = resolve(destination, book)
+    const destinationDirectoryPath = resolve(destination, stringToKebabCase(removeSpecialCharacters(book)))
+    const destinationFilePath = resolve(destination, book)
     const fileStats = await stat(sourcePath)
     if (fileStats.isDirectory()) {
-      await copyFolder(sourcePath, destinationPath)
+      await copyFolder(sourcePath, destinationDirectoryPath)
     } else {
-      await copyFile(sourcePath, destinationPath)
+      await copyFile(sourcePath, destinationFilePath)
     }
   }
 }

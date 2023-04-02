@@ -30,7 +30,7 @@ const createBooksExport = async () => {
   const booksDB = {}
 
   bookNames.forEach(book => {
-    booksDB[stringToKebabCase(removeSpecialCharacters(book))] = {
+    booksDB[book] = {
       name: book,
       path: [publicPath, book, 'Summary.md'].join('/'),
     }
