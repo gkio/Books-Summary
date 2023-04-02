@@ -31,6 +31,10 @@ export const books = {
     "name": "the-4hour-workweek",
     "path": "books/the-4hour-workweek/Summary.md"
   },
+  "the-5-am-club": {
+    "name": "the-5-am-club",
+    "path": "books/the-5-am-club/Summary.md"
+  },
   "the-7-habits-of-highly-effective-people": {
     "name": "the-7-habits-of-highly-effective-people",
     "path": "books/the-7-habits-of-highly-effective-people/Summary.md"
