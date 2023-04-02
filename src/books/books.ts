@@ -3,6 +3,10 @@ export const books = {
     "name": "13-things-mentally-strong-people-dont-do",
     "path": "books/13-things-mentally-strong-people-dont-do/Summary.md"
   },
+  "becoming-the-boss": {
+    "name": "becoming-the-boss",
+    "path": "books/becoming-the-boss/Summary.md"
+  },
   "good-to-great": {
     "name": "good-to-great",
     "path": "books/good-to-great/Summary.md"
